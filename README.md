@@ -1,6 +1,6 @@
 # uavplanner
 
-自 `drone_3d_path` 迁移的 **无人机航线 KMZ 导出与几何工具** 库：与 `calculate-area` 同构的请求体解析、`route_3d.waypoints_wgs84` 与 `options` 驱动的 KMZ 生成、KMZ 读回、坐标变换与规划结果回投等。**不包含** `path_generator` 的完整航线规划服务执行；面状/航点/圆柱/带状等几何规划与导出集中在 `uavplanner.path_editor` 中，可通过 Python API 或 CLI 使用。
+ **无人机航线 KMZ 导出与几何工具** 库：与 `calculate-area` 同构的请求体解析、`route_3d.waypoints_wgs84` 与 `options` 驱动的 KMZ 生成、KMZ 读回、坐标变换与规划结果回投等。**不包含** `path_generator` 的完整航线规划服务执行；面状/航点/圆柱/带状等几何规划与导出集中在 `uavplanner.path_editor` 中，可通过 Python API 或 CLI 使用。
 
 ## 环境要求
 
